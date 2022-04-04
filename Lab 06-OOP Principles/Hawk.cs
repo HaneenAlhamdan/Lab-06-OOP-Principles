@@ -33,6 +33,7 @@ namespace Lab_06_OOP_Principles
         public override bool Fly(bool canfly)
         {
             return base.Fly(canFly);
+           // Console.WriteLine("i can"{canFly});
         }
 
         public override string Sound()

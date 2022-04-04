@@ -13,10 +13,10 @@ namespace Lab_06_OOP_Principles
         abstract public bool canFly { get; set; }
         abstract public string beakColor { get; set; }
 
-        //public override void Wings()
-        //{
-        //    base.Wings();
-        //}
+        public override void Wings()
+        {
+            base.Wings();
+        }
 
         public abstract string BeakColor();
 
