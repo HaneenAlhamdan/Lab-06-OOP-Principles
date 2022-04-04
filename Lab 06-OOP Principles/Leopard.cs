@@ -6,7 +6,7 @@ using Lab_06_OOP_Principles.Interface;
 namespace Lab_06_OOP_Principles
 {
 
-     public class Leopard : Mammals, Swim, Jump
+     public class Leopard : Mammals, Swim, Walk
     {
         public override string sound { get; set; } = "snoring";
         public override string eat { get; set; } = "Meat";
@@ -28,7 +28,7 @@ namespace Lab_06_OOP_Principles
 
         public override string Sound()
         {
-            return $"I go {this.sound}";
+            return $"My sound is {this.sound}";
         }
 
         public override void Hunt()
@@ -42,9 +42,9 @@ namespace Lab_06_OOP_Principles
             return "I can swim";
         }
 
-        public string CanJump()
+        public string CanWalk()
         {
-            return "I can jump more than 2 metters";
+            return "I can Walk very fast";
         }
     }
 }

@@ -21,6 +21,10 @@ namespace Lab_06_OOP_Principles
             {
                 Console.WriteLine("I have a fins");
             }
+        public virtual void Wings()
+        {
+            Console.WriteLine("I have a wings");
         }
+    }
     
 }
