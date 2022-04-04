@@ -21,6 +21,10 @@ namespace Lab_06_OOP_Principles
         {
             return "I can swim ";
         }
+        public string CanWalk()
+        {
+            return "I Can Walk ";
+        }
 
         public override void Eat()
         {

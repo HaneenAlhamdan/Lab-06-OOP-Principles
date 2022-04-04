@@ -29,5 +29,10 @@ namespace Lab_06_OOP_Principles
             return $" My sound is{this.sound}";
         }
 
+        public string CanWalk()
+        {
+            return "I Can Walk ";
+        }
+
     }
 }

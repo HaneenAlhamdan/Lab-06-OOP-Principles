@@ -14,7 +14,7 @@ namespace Lab_06_OOP_Principles
 
         public Hawk(bool canFly, string sound, string eat, string beakColor)
         {
-            this.canFly = canFly;
+            
             this.sound = sound;
             this.eat = eat;
             this.beakColor = beakColor;
@@ -30,15 +30,15 @@ namespace Lab_06_OOP_Principles
             Console.WriteLine("I eat meat");
         }
 
-        public override bool Fly(bool canfly)
-        {
-            return base.Fly(canFly);
-           // Console.WriteLine("i can"{canFly});
-        }
 
         public override string Sound()
         {
             return $"My sound is {this.sound}";
+        }
+
+        public string CanFly()
+        {
+            return "I CanFly";
         }
     }
 }
